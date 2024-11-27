@@ -3,6 +3,16 @@ root = true
 # C# files
 [*.cs]
 
+dotnet_diagnostic.IDE0005.severity = error
+dotnet_diagnostic.CS1591.severity = none
+dotnet_diagnostic.IDE0055.severity = none
+dotnet_diagnostic.IDE0058.severity = none
+dotnet_diagnostic.IDE0060.severity = none
+dotnet_diagnostic.IDE0005.severity = none
+dotnet_diagnostic.IDE0161.severity = none
+dotnet_diagnostic.IDE0053.severity = none
+dotnet_diagnostic.CA1515.severity = none
+dotnet_diagnostic.IDE0072.severity = none
 #### Core EditorConfig Options ####
 
 # Indentation and spacing
